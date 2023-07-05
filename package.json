@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start-server": "pm2 start app.js",
-    "start-agenda-job": "pm2 start pm2.config.js"
+    "start-agenda-job": "pm2 start pm2.config.js",
+    "stop-agenda-job": "pm2 stop agenda-job",
+    "stop-server": "pm2 stop app"
   },
   "keywords": [],
   "author": "",
